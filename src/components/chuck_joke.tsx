@@ -1,11 +1,10 @@
 import Joke from "../joke";
 
 interface ChuckJokeProps {
-    joke: Joke;
+   chuckJoke: Joke;  
 }
 
-const ChuckJoke: React.FC<ChuckJokeProps> = ({joke}) => <p>{joke.joke}</p>
-
+const ChuckJoke: React.FC<ChuckJokeProps> = ({chuckJoke}) => <p>{chuckJoke.joke}</p>
 
 
 export default ChuckJoke;
